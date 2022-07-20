@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    background-color: rgb(156, 236, 169);
+}
+
+#fitness{
+    left: 100px;
+    width: 47px;
+}
+
+#fitness:active{
+    width: 44px;
+}
+
+#health{
+    left: 185px;
+}
+
+#music{
+    left: 265px;
+}
+
+#chat{
+    left:345px;
+}
+
+.icons{
+    width: 45px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    bottom: 50px;
+    transition: ease-in-out 100ms;
+}
+
+.icons:hover{
+    border: 2px solid white;
+}
+
+#parent{
+    background-color: rgb(110, 123, 225);
+    /* border: 5px solid white; */
+    border-radius: 50%;
+    width: 458px;
+    height: 458px;
+    padding: 20px;
+    position: absolute;
+    top: 201px;
+    left: 448px;
+}
+
+div{
+    text-align: center;
+}
+
+#month{
+    margin-left: 15px;
+}
+
+#day{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.text{
+    margin-inline: auto;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
+
+#time{
+    position: relative;
+    bottom: 109px;
+}
+
+#colon{
+    margin-top:20%;
+}
+
+.time{
+    margin-inline:auto;
+    font-family: 'Trebuchet MS';
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}

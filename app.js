@@ -18,7 +18,7 @@ setCurrentDate = () => {
 
 setCurrentMonth = () => {
     const d = new Date();
-    let month = (d.getMonth()).toString()
+    let month = (d.getMonth() + 1).toString()
     document.getElementById("month").innerHTML = "/&ensp;" + month;
 }
 

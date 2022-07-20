@@ -51,3 +51,4 @@ setCurrentDay()
 
 setInterval(function () {setCurrentTime()}, 1000*60)
 setInterval(function () {setCurrentDate()}, 1000*60*60*24)
+

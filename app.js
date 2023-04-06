@@ -1,9 +1,9 @@
 setCurrentTime = () => {
     const d = new Date();
     let hours = d.getHours()
+    let minutes = d.getMinutes()
         if(hours<10)
             hours = "0" + minutes
-    let minutes = d.getMinutes()
         if(minutes<10)
             minutes = "0" + minutes
     let time = hours + " &nbsp;  " + minutes;
